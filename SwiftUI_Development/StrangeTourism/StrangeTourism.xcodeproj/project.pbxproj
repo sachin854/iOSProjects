@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C203EA52A94C52600E660B0 /* StrangeTourismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EA42A94C52600E660B0 /* StrangeTourismApp.swift */; };
+		5C203EA92A94C52700E660B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C203EA82A94C52700E660B0 /* Assets.xcassets */; };
+		5C203EAC2A94C52700E660B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C203EAB2A94C52700E660B0 /* Preview Assets.xcassets */; };
+		5C203EB62A94C52700E660B0 /* StrangeTourismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EB52A94C52700E660B0 /* StrangeTourismTests.swift */; };
+		5C203EC02A94C52700E660B0 /* StrangeTourismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EBF2A94C52700E660B0 /* StrangeTourismUITests.swift */; };
+		5C203EC22A94C52700E660B0 /* StrangeTourismUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EC12A94C52700E660B0 /* StrangeTourismUITestsLaunchTests.swift */; };
+		5C203ED02A94C68B00E660B0 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203ECF2A94C68B00E660B0 /* LoginPage.swift */; };
+		5C203ED32A94C6D200E660B0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203ED22A94C6D200E660B0 /* HomePage.swift */; };
+		5C203ED82A94C71200E660B0 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203ED72A94C71200E660B0 /* Application.swift */; };
+		5C203EDA2A94C71A00E660B0 /* Google_SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203ED92A94C71A00E660B0 /* Google_SignIn.swift */; };
+		5C203EDC2A94C80100E660B0 /* GoogleService-Info-old.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C203EDB2A94C80100E660B0 /* GoogleService-Info-old.plist */; };
+		5C203EE02A94CA5C00E660B0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5C203EDF2A94CA5C00E660B0 /* FirebaseAnalytics */; };
+		5C203EE22A94CA5C00E660B0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5C203EE12A94CA5C00E660B0 /* FirebaseAuth */; };
+		5C203EE42A94CA5C00E660B0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C203EE32A94CA5C00E660B0 /* FirebaseFirestoreSwift */; };
+		5C203EE72A94CACE00E660B0 /* PhoneAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EE62A94CACE00E660B0 /* PhoneAuth.swift */; };
+		5C203EEA2A94CC7C00E660B0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 5C203EE92A94CC7C00E660B0 /* GoogleSignIn */; };
+		5C203EEC2A94CC7C00E660B0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C203EEB2A94CC7C00E660B0 /* GoogleSignInSwift */; };
+		5C203EEF2A94CCC800E660B0 /* FeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EEE2A94CCC800E660B0 /* FeedsModel.swift */; };
+		5C203EF22A94CD5C00E660B0 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C203EF12A94CD5C00E660B0 /* CustomColor.swift */; };
+		5C43939A2ACC2BC400D0214A /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4393992ACC2BC400D0214A /* APICall.swift */; };
+		5CACDAAE2ACDD24E00A4D0C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CACDAAD2ACDD24E00A4D0C1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C203EB22A94C52700E660B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C203E992A94C52600E660B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C203EA02A94C52600E660B0;
+			remoteInfo = StrangeTourism;
+		};
+		5C203EBC2A94C52700E660B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C203E992A94C52600E660B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C203EA02A94C52600E660B0;
+			remoteInfo = StrangeTourism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C203EA12A94C52600E660B0 /* StrangeTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrangeTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C203EA42A94C52600E660B0 /* StrangeTourismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeTourismApp.swift; sourceTree = "<group>"; };
+		5C203EA82A94C52700E660B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C203EAB2A94C52700E660B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C203EB12A94C52700E660B0 /* StrangeTourismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangeTourismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C203EB52A94C52700E660B0 /* StrangeTourismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeTourismTests.swift; sourceTree = "<group>"; };
+		5C203EBB2A94C52700E660B0 /* StrangeTourismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrangeTourismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C203EBF2A94C52700E660B0 /* StrangeTourismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeTourismUITests.swift; sourceTree = "<group>"; };
+		5C203EC12A94C52700E660B0 /* StrangeTourismUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeTourismUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C203ECF2A94C68B00E660B0 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		5C203ED22A94C6D200E660B0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		5C203ED72A94C71200E660B0 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		5C203ED92A94C71A00E660B0 /* Google_SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google_SignIn.swift; sourceTree = "<group>"; };
+		5C203EDB2A94C80100E660B0 /* GoogleService-Info-old.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-old.plist"; sourceTree = "<group>"; };
+		5C203EDD2A94C82300E660B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C203EE62A94CACE00E660B0 /* PhoneAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuth.swift; sourceTree = "<group>"; };
+		5C203EEE2A94CCC800E660B0 /* FeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsModel.swift; sourceTree = "<group>"; };
+		5C203EF12A94CD5C00E660B0 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		5C4393992ACC2BC400D0214A /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		5CACDAAD2ACDD24E00A4D0C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C203E9E2A94C52600E660B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C203EEC2A94CC7C00E660B0 /* GoogleSignInSwift in Frameworks */,
+				5C203EE02A94CA5C00E660B0 /* FirebaseAnalytics in Frameworks */,
+				5C203EEA2A94CC7C00E660B0 /* GoogleSignIn in Frameworks */,
+				5C203EE22A94CA5C00E660B0 /* FirebaseAuth in Frameworks */,
+				5C203EE42A94CA5C00E660B0 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C203EAE2A94C52700E660B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C203EB82A94C52700E660B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C203E982A94C52600E660B0 = {
+			isa = PBXGroup;
+			children = (
+				5C4393992ACC2BC400D0214A /* APICall.swift */,
+				5C203EF02A94CD2800E660B0 /* Color */,
+				5C203EED2A94CCB600E660B0 /* Feeds */,
+				5C203EE52A94CAB200E660B0 /* Authentication */,
+				5C203ED62A94C70300E660B0 /* GoogleSignIn */,
+				5C203ED12A94C6BE00E660B0 /* HomePage */,
+				5C203ECE2A94C67500E660B0 /* LoginPage */,
+				5C203EA32A94C52600E660B0 /* StrangeTourism */,
+				5C203EB42A94C52700E660B0 /* StrangeTourismTests */,
+				5C203EBE2A94C52700E660B0 /* StrangeTourismUITests */,
+				5C203EA22A94C52600E660B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C203EA22A94C52600E660B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EA12A94C52600E660B0 /* StrangeTourism.app */,
+				5C203EB12A94C52700E660B0 /* StrangeTourismTests.xctest */,
+				5C203EBB2A94C52700E660B0 /* StrangeTourismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C203EA32A94C52600E660B0 /* StrangeTourism */ = {
+			isa = PBXGroup;
+			children = (
+				5CACDAAD2ACDD24E00A4D0C1 /* GoogleService-Info.plist */,
+				5C203EDD2A94C82300E660B0 /* Info.plist */,
+				5C203EDB2A94C80100E660B0 /* GoogleService-Info-old.plist */,
+				5C203EA42A94C52600E660B0 /* StrangeTourismApp.swift */,
+				5C203EA82A94C52700E660B0 /* Assets.xcassets */,
+				5C203EAA2A94C52700E660B0 /* Preview Content */,
+			);
+			path = StrangeTourism;
+			sourceTree = "<group>";
+		};
+		5C203EAA2A94C52700E660B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EAB2A94C52700E660B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C203EB42A94C52700E660B0 /* StrangeTourismTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EB52A94C52700E660B0 /* StrangeTourismTests.swift */,
+			);
+			path = StrangeTourismTests;
+			sourceTree = "<group>";
+		};
+		5C203EBE2A94C52700E660B0 /* StrangeTourismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EBF2A94C52700E660B0 /* StrangeTourismUITests.swift */,
+				5C203EC12A94C52700E660B0 /* StrangeTourismUITestsLaunchTests.swift */,
+			);
+			path = StrangeTourismUITests;
+			sourceTree = "<group>";
+		};
+		5C203ECE2A94C67500E660B0 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				5C203ECF2A94C68B00E660B0 /* LoginPage.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		5C203ED12A94C6BE00E660B0 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				5C203ED22A94C6D200E660B0 /* HomePage.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		5C203ED62A94C70300E660B0 /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5C203ED92A94C71A00E660B0 /* Google_SignIn.swift */,
+				5C203ED72A94C71200E660B0 /* Application.swift */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		5C203EE52A94CAB200E660B0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EE62A94CACE00E660B0 /* PhoneAuth.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5C203EED2A94CCB600E660B0 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EEE2A94CCC800E660B0 /* FeedsModel.swift */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		5C203EF02A94CD2800E660B0 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				5C203EF12A94CD5C00E660B0 /* CustomColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C203EA02A94C52600E660B0 /* StrangeTourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C203EC52A94C52700E660B0 /* Build configuration list for PBXNativeTarget "StrangeTourism" */;
+			buildPhases = (
+				5C203E9D2A94C52600E660B0 /* Sources */,
+				5C203E9E2A94C52600E660B0 /* Frameworks */,
+				5C203E9F2A94C52600E660B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrangeTourism;
+			packageProductDependencies = (
+				5C203EDF2A94CA5C00E660B0 /* FirebaseAnalytics */,
+				5C203EE12A94CA5C00E660B0 /* FirebaseAuth */,
+				5C203EE32A94CA5C00E660B0 /* FirebaseFirestoreSwift */,
+				5C203EE92A94CC7C00E660B0 /* GoogleSignIn */,
+				5C203EEB2A94CC7C00E660B0 /* GoogleSignInSwift */,
+			);
+			productName = StrangeTourism;
+			productReference = 5C203EA12A94C52600E660B0 /* StrangeTourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C203EB02A94C52700E660B0 /* StrangeTourismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C203EC82A94C52700E660B0 /* Build configuration list for PBXNativeTarget "StrangeTourismTests" */;
+			buildPhases = (
+				5C203EAD2A94C52700E660B0 /* Sources */,
+				5C203EAE2A94C52700E660B0 /* Frameworks */,
+				5C203EAF2A94C52700E660B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C203EB32A94C52700E660B0 /* PBXTargetDependency */,
+			);
+			name = StrangeTourismTests;
+			productName = StrangeTourismTests;
+			productReference = 5C203EB12A94C52700E660B0 /* StrangeTourismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C203EBA2A94C52700E660B0 /* StrangeTourismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C203ECB2A94C52700E660B0 /* Build configuration list for PBXNativeTarget "StrangeTourismUITests" */;
+			buildPhases = (
+				5C203EB72A94C52700E660B0 /* Sources */,
+				5C203EB82A94C52700E660B0 /* Frameworks */,
+				5C203EB92A94C52700E660B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C203EBD2A94C52700E660B0 /* PBXTargetDependency */,
+			);
+			name = StrangeTourismUITests;
+			productName = StrangeTourismUITests;
+			productReference = 5C203EBB2A94C52700E660B0 /* StrangeTourismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C203E992A94C52600E660B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5C203EA02A94C52600E660B0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5C203EB02A94C52700E660B0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5C203EA02A94C52600E660B0;
+					};
+					5C203EBA2A94C52700E660B0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5C203EA02A94C52600E660B0;
+					};
+				};
+			};
+			buildConfigurationList = 5C203E9C2A94C52600E660B0 /* Build configuration list for PBXProject "StrangeTourism" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C203E982A94C52600E660B0;
+			packageReferences = (
+				5C203EDE2A94CA5B00E660B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				5C203EE82A94CC7C00E660B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 5C203EA22A94C52600E660B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C203EA02A94C52600E660B0 /* StrangeTourism */,
+				5C203EB02A94C52700E660B0 /* StrangeTourismTests */,
+				5C203EBA2A94C52700E660B0 /* StrangeTourismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C203E9F2A94C52600E660B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C203EAC2A94C52700E660B0 /* Preview Assets.xcassets in Resources */,
+				5CACDAAE2ACDD24E00A4D0C1 /* GoogleService-Info.plist in Resources */,
+				5C203EA92A94C52700E660B0 /* Assets.xcassets in Resources */,
+				5C203EDC2A94C80100E660B0 /* GoogleService-Info-old.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C203EAF2A94C52700E660B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C203EB92A94C52700E660B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C203E9D2A94C52600E660B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C203EE72A94CACE00E660B0 /* PhoneAuth.swift in Sources */,
+				5C203ED82A94C71200E660B0 /* Application.swift in Sources */,
+				5C203EF22A94CD5C00E660B0 /* CustomColor.swift in Sources */,
+				5C203EEF2A94CCC800E660B0 /* FeedsModel.swift in Sources */,
+				5C203ED02A94C68B00E660B0 /* LoginPage.swift in Sources */,
+				5C203EA52A94C52600E660B0 /* StrangeTourismApp.swift in Sources */,
+				5C203EDA2A94C71A00E660B0 /* Google_SignIn.swift in Sources */,
+				5C203ED32A94C6D200E660B0 /* HomePage.swift in Sources */,
+				5C43939A2ACC2BC400D0214A /* APICall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C203EAD2A94C52700E660B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C203EB62A94C52700E660B0 /* StrangeTourismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C203EB72A94C52700E660B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C203EC02A94C52700E660B0 /* StrangeTourismUITests.swift in Sources */,
+				5C203EC22A94C52700E660B0 /* StrangeTourismUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C203EB32A94C52700E660B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C203EA02A94C52600E660B0 /* StrangeTourism */;
+			targetProxy = 5C203EB22A94C52700E660B0 /* PBXContainerItemProxy */;
+		};
+		5C203EBD2A94C52700E660B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C203EA02A94C52600E660B0 /* StrangeTourism */;
+			targetProxy = 5C203EBC2A94C52700E660B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C203EC32A94C52700E660B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C203EC42A94C52700E660B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C203EC62A94C52700E660B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StrangeTourism/Preview Content\"";
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrangeTourism/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strangetourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C203EC72A94C52700E660B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StrangeTourism/Preview Content\"";
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrangeTourism/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strangetourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C203EC92A94C52700E660B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strangetourism.StrangeTourismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrangeTourism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StrangeTourism";
+			};
+			name = Debug;
+		};
+		5C203ECA2A94C52700E660B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strangetourism.StrangeTourismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrangeTourism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StrangeTourism";
+			};
+			name = Release;
+		};
+		5C203ECC2A94C52700E660B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strangetourism.StrangeTourismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrangeTourism;
+			};
+			name = Debug;
+		};
+		5C203ECD2A94C52700E660B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strangetourism.StrangeTourismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrangeTourism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C203E9C2A94C52600E660B0 /* Build configuration list for PBXProject "StrangeTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C203EC32A94C52700E660B0 /* Debug */,
+				5C203EC42A94C52700E660B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C203EC52A94C52700E660B0 /* Build configuration list for PBXNativeTarget "StrangeTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C203EC62A94C52700E660B0 /* Debug */,
+				5C203EC72A94C52700E660B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C203EC82A94C52700E660B0 /* Build configuration list for PBXNativeTarget "StrangeTourismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C203EC92A94C52700E660B0 /* Debug */,
+				5C203ECA2A94C52700E660B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C203ECB2A94C52700E660B0 /* Build configuration list for PBXNativeTarget "StrangeTourismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C203ECC2A94C52700E660B0 /* Debug */,
+				5C203ECD2A94C52700E660B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C203EDE2A94CA5B00E660B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5C203EE82A94CC7C00E660B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C203EDF2A94CA5C00E660B0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C203EDE2A94CA5B00E660B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5C203EE12A94CA5C00E660B0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C203EDE2A94CA5B00E660B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5C203EE32A94CA5C00E660B0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C203EDE2A94CA5B00E660B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		5C203EE92A94CC7C00E660B0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C203EE82A94CC7C00E660B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		5C203EEB2A94CC7C00E660B0 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C203EE82A94CC7C00E660B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5C203E992A94C52600E660B0 /* Project object */;
+}
